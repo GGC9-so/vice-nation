@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: dark; }
+body { background: radial-gradient(900px 480px at 80% -10%, #ff409940, transparent), radial-gradient(700px 400px at 0% 0%, #ff8a4b1f, transparent), #0b0614; background-attachment: fixed; color: #f6efff; font-family: 'Chakra Petch', ui-sans-serif, system-ui, sans-serif; }
+.logo { color: #fff; text-shadow: 0 0 12px #ff3399, 0 0 28px #ff339966; }
+.logo span { color: #00f0ff; text-shadow: 0 0 12px #00f0ff, 0 0 28px #00f0ff66; }
+.hero-line { height: 3px; background: linear-gradient(90deg, #ff3399, #ff8a4b); }
+.btn-neon { background: linear-gradient(90deg, #ff3399, #ff2a85); box-shadow: 0 0 25px rgba(255, 51, 153, 0.4); }
+.card { transition: border-color .2s, box-shadow .2s; }
+.card:hover { border-color: #ff4099aa; box-shadow: 0 0 28px #ff339926; }
+:focus-visible { outline: 2px solid #00f0ff; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
